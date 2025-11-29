@@ -234,7 +234,7 @@ sap.ui.define([
             });
 
             omsg = [];
-            MessageToast.show("Submitted!");
+            MessageToast.show("Submitted the commentary!");
         }
 
     });
