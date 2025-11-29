@@ -1,0 +1,37 @@
+<mvc:View
+    controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+
+    <Page id="page" title="FirstPage">
+
+        <!-- Toolbar with dropdown and Go button -->
+        <Toolbar id="IdToolbar" width="100%">
+            <Label id="_IDGenLabel" text="Select View:"/>
+            <Select id="idSelectView">
+                <core:Item id="_IDGenItem" key="view1" text="View 1"/>
+                <core:Item id="_IDGenItem1" key="view2" text="View 2"/>
+            </Select>
+            <Button id="idBtn" text="Go" press="onClick"/>
+        </Toolbar>
+
+        <!-- Container for dynamic panels -->
+        <VBox id="containerVBox" width="100%" class="sapUiSmallMargin" />
+
+        <footer>
+<Bar id="_IDGenBar" design="Footer">
+<contentRight>
+<OverflowToolbar id="otbFooter">
+<Button id="idMessage" icon="sap-icon://alert" text="{=${message>/}.length}" visible="{=${message>/}.length > 0}" type="{message>/type}" press="onMessagePopoverPress"> </Button>
+<ToolbarSpacer id="_IDGenToolbarSpacer"/>
+</OverflowToolbar>
+<Button id="idSave" text="Save" press="onSave"/>
+<Button id="idSubmit" text="Save and Submit" type="Emphasized" press="onSubmit"/>
+</contentRight>
+</Bar>
+</footer>
+
+    </Page>
+
+</mvc:View>

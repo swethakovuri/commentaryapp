@@ -1,0 +1,88 @@
+/* Enter your custom styles here */
+
+.sapMBtnGhost {
+    background-image: none;
+    border-color: transparent;
+    background-color: transparent;
+    color: transparent;
+}
+.sapMBtnGhost {
+    color: transparent;
+    border: transparent;
+    background: transparent;
+}
+.sapMBtnGhost.sapMBtnInner {
+    text-shadow: none;
+}
+.sapUiSizeCompact .sapMBtnGhost {
+    text-shadow: none;
+}
+.sapMPanelContent:not(.sapMPanelBGTransparent){
+    border: .0625rem solid#d9d9d9;
+}
+.redButton .sapMBtnInner{
+    background-color: #ea6b6b !important;
+    border-color: #b00 !important ;
+    color :white !important ;
+}
+.yellowButton .sapMBtnInner{
+    background-color: #fabd64 !important;
+    border-color: #e6931b !important ;
+    color : white !important ;
+}
+.greenButton .sapMBtnInner{
+    background-color: #2b7c2b !important;
+    border-color: #2b7c2b !important ;
+    color : white !important ;
+}
+.customicon .sapMBtnIcon {
+    color:white !important;
+}
+button[data-button="G"] .sapMBtnInner{
+    background-color: #2b7c2b !important;
+    border-color: #2b7c2b !important ;
+    color : white !important ;
+}
+button[data-button="G"] .sapMBtnIcon{
+    background-color: #2b7c2b !important;
+    border-color: #2b7c2b !important ;
+    color : white !important ;
+}
+button[data-button="R"] .sapMBtnInner{
+    background-color: #ea6b6b !important;
+    border-color: #b00 !important ;
+    color :white !important ;
+}
+button[data-button="R"] .sapMBtnIcon{
+    background-color: #ea6b6b !important;
+    border-color: #b00 !important ;
+    color :white !important ;
+}
+button[data-button="A"] .sapMBtnInner{
+    background-color: #fabd64 !important;
+    border-color: #e6931b !important ;
+    color : white !important ;
+}
+button[data-button="A"] .sapMBtnIcon{
+    
+        background-color: #fabd64 !important;
+        border-color: #e6931b !important ;
+        color : white !important ;
+}
+.maroon{
+    color:#b00 !important;
+    font-weight: 700;
+}
+
+.invisibleCharLabel {
+    visibility: hidden;     /* hides content but reserves space */
+    height: 1.2rem;           /* optional: to keep height consistent */
+    display: block;
+}
+
+.requiredTitle::before {
+    content: "*";
+    color: red;
+    margin-right: 0.25rem;
+    font-weight: bold;
+}
